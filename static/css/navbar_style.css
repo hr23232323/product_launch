@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.nav-child {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    padding: 0 1rem;
+}
