@@ -1,0 +1,15 @@
+.sponsor-content {
+    background-color: var(--s-color)
+}
+
+.sponsor-strip {
+    justify-content: space-evenly;
+}
+
+.sponsor-child {
+    padding: 20px;
+}
+
+.sponsor-child img {
+    height: 80px;
+}
