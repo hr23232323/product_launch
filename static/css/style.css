@@ -2,6 +2,15 @@
     box-sizing: border-box;
     background-color: var(--p-color);
     color: var(--s-color);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 body {
