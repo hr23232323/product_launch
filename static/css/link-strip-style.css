@@ -1,0 +1,42 @@
+.link-strip {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-top-section {
+    padding: 40px;
+}
+
+.link-btm-section {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.link-strip h2 {
+    margin-bottom: 5px;
+}
+
+.link-child {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.link-child ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.link-child li {
+    padding-bottom: 1rem;
+}
+
+
+.link-child a {
+    text-decoration: none;
+}
+
+.link-child img {
+    max-width: 100%;
+}

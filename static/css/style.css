@@ -36,3 +36,9 @@ body {
     background-color: var(--p-color);
     color: var(--s-color);
 }
+
+.dark-color,
+.dark-color * {
+    background-color: var(--d-color);
+    color: var(--p-color);
+}
