@@ -1,0 +1,29 @@
+.sp-1-content {
+    height: 95vh;
+}
+
+.sp-1-content img {
+    max-width: 100%;
+}
+
+.sp-1-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sp-1-content .button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    max-width: 40%;
+}
+
+.sp-1-right {
+    padding-left: 2rem;
+}
