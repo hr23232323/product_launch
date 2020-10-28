@@ -1,0 +1,34 @@
+.pricing-content {
+    height: 95vh;
+}
+
+.pricing-section {
+    justify-content: space-evenly;
+}
+
+.pricing-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    padding: 50px 10px;
+    margin: 0 20px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.card-top p {
+    margin-top: 0;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card li {
+    padding: 10px 0;
+}
