@@ -5,7 +5,7 @@
         display: none;
     }
 
-    .hero-section {
+    .section {
         width: 90%;
         flex-direction: column;
     }
@@ -15,4 +15,36 @@
         text-align: center;
         padding: 10px 0;
     }
+
+    .sponsor-strip {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .sponsor-child {
+        padding: 15px 5px;
+    }
+
+    .sponsor-child img {
+        height: 50px;
+    }
+
+    .sp-1-right {
+        order: 1;
+    }
+
+    .sp-1-left {
+        order: 2;
+    }
+
+    .sp-1-child,
+    .sp-1-m-child {
+
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+
 }
