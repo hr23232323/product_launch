@@ -1,0 +1,18 @@
+/*--------Mobile CSS Styling-------------*/
+
+@media (max-width: 450px) {
+    .navbar {
+        display: none;
+    }
+
+    .hero-section {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .hero-child {
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
