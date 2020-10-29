@@ -46,5 +46,24 @@
         padding: 10px 0;
     }
 
+    .pricing-content {
+        height: auto;
+    }
+
+    .pricing-section {
+        padding: 20px 0;
+    }
+
+    .card {
+        margin: 20px 10px;
+        padding: 15px 5px;
+    }
+
+    .pricing-header {
+        display: block;
+        text-align: center;
+
+    }
+
 
 }
