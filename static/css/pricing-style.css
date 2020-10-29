@@ -29,6 +29,11 @@
     align-items: center;
 }
 
+.card-btm {
+    display: flex;
+    flex-direction: column;
+}
+
 .card li {
     padding: 10px 0;
 }
