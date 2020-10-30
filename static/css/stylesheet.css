@@ -3,4 +3,6 @@
     --p-color: hsl(240, 10%, 100%);
     --s-color: hsl(240, 10%, 20%);
     --d-color: hsl(240, 10%, 10%);
+    --accent-color: hsl(47, 100%, 50%);
+    --atext-color: hsl(240, 10%, 20%);
 }

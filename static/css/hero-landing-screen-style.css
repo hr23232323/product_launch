@@ -14,13 +14,17 @@
 }
 
 .hero-content .button {
-    background-color: #008CBA;
+    background-color: var(--accent-color);
     border: none;
-    color: white;
+    color: var(--atext-color);
     padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 4px;
     max-width: 40%;
+}
+
+.hero-right {
+    padding-left: 2rem;
 }

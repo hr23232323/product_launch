@@ -14,9 +14,9 @@
 }
 
 .sp-1-m-content .button {
-    background-color: #008CBA;
+    background-color: var(--accent-color);
     border: none;
-    color: white;
+    color: var(--atext-color);
     padding: 15px;
     text-align: center;
     text-decoration: none;
