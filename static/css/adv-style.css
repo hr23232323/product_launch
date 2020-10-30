@@ -12,3 +12,56 @@
 a:hover {
     color: var(--accent-color);
 }
+
+
+/* Textured BG */
+
+.light-bg {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.light-bg::before {
+    content: "";
+    background-size: cover;
+    background-image: url("../img/light-pattern-v2.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+    z-index: -5;
+}
+
+
+.dark-bg {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--s-color);
+}
+
+.dark-bg::after {
+    content: "";
+    background-size: cover;
+    background-image: url("../img/dark-pattern-v2.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.dark-bg * {
+    z-index: 2;
+}
+
+.light-text * {
+    color: var(--p-color);
+}
