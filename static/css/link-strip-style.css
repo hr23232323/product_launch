@@ -18,7 +18,9 @@
     justify-content: space-evenly;
 }
 
-.link-strip h2 {
+.link-strip h2,
+.link-strip h3 {
+    color: var(--accent-color);
     margin-bottom: 5px;
 }
 
