@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    color: var(--s-color);
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -9,8 +8,8 @@ h2,
 h3,
 h4 {
     font-family: 'Open Sans', sans-serif;
-
 }
+
 
 a {
     text-decoration: none;
@@ -37,20 +36,17 @@ body {
     width: 80%;
 }
 
-.rev-color,
-.rev-color * {
+.rev-color {
     background-color: var(--s-color);
     color: var(--p-color);
 }
 
-.norm-color,
-.norm-color * {
+.norm-color {
     background-color: var(--p-color);
     color: var(--s-color);
 }
 
-.dark-color,
-.dark-color * {
+.dark-color {
     background-color: var(--d-color);
     color: var(--p-color);
 }

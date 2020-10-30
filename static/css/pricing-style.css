@@ -4,6 +4,7 @@
 
 .pricing-section {
     justify-content: space-evenly;
+    width: 95%;
 }
 
 .pricing-child {
@@ -40,4 +41,15 @@
 
 .pricing-header {
     display: none;
+}
+
+.card h1,
+.card h2,
+.card h3 {
+    color: var(--p-color);
+}
+
+.card p,
+.card li {
+    color: var(--p-color-lighter);
 }

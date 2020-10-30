@@ -8,6 +8,10 @@
     padding: 10px;
 }
 
+.navbar a {
+    color: var(--s-color);
+}
+
 .sticky {
     position: fixed;
     top: 0;

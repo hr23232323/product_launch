@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.link-strip a {
+    color: var(--p-color);
+}
+
 .link-top-section {
     padding: 40px;
 }
