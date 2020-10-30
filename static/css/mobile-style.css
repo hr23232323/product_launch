@@ -89,3 +89,8 @@
         align-items: center;
         font-size: 0.6rem;
     }
+
+    /* Issue with pricing on mobile so disabling for now*/
+    #pricing {
+        display: none;
+    }
